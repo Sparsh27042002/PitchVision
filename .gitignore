@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+client/node_modules/
+.venv/
+__pycache__/
+
+# Media & Outputs (Too large for git)
+uploads/*
+outputs/*
+!uploads/.gitkeep
+!outputs/.gitkeep
+
+# Models (If larger than 100MB, git rejects them)
+models/*.pt
+!models/.gitkeep
+
+# System
+.DS_Store
+Thumbs.db
